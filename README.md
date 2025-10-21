@@ -6,7 +6,6 @@ Learned how to use basic Java operators such as addition, subtraction, multiplic
 # Pseudocode
 
 ```
-START 
   CLASS BasicMathSolver
     FUNCTION Subtract (double num1, double num2)
       RETURN NUM1 - NUM2
@@ -25,7 +24,7 @@ START
     END FUNCTION
   END CLASS
 
-  CLASS SimpleMath
+  START
     PROPERTY mathSolver = NEW BasicMathSolver()
     INT numberOne = 5
     INT numberTwo = 4
@@ -34,6 +33,5 @@ START
     PRINT mathSolver.Subtract(numberOne, numberTwo)
     PRINT mathSolver.Multiply(numberOne, numberTwo)
     PRINT mathSolver.Divide(numberOne, numberTwo)
-  END CLASS
-END
+  END
 ```
